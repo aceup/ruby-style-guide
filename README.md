@@ -1,6 +1,9 @@
 # Ruby Style Guide
 Ruby Style Guide for Ace-up
 
+References the [Bozhidar Batsov's Community Driven Ruby Guide](https://github.com/bbatsov/ruby-style-guide) and the
+[AirBnb Ruby Style Guide](https://github.com/airbnb/ruby)
+
 These are the style guides we aim to follow when developing new projects in the future and while refactoring existing
 code as a part of Tech Debt Reduction.
 
