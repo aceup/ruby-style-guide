@@ -86,8 +86,7 @@ describing what the file is for.
     # Creates a message from Ace-up Bot for the Coach
     def create_coach_instructions
       @coach_message = conversation.messages.build({ user_id: ace_up_bot_id,
-                                                      content: '<p>Hi ' + coach_name + '</p>
-        <p> It was you who wanted to be a coach....deal with it!</p>',
+                                                      content: content',
                                                       attachment_url: [''],
                                                       only_for_coach: true
                                                     })
