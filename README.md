@@ -128,6 +128,15 @@ describing what the file is for.
     * `#OPTIMIZE` : To mark something in the code which can be optimized.
     * `#REVIEW` : To mark something which requires review.
     
+#### Comment Markers for Future Projects
+* While working on the development for current projects it's a good idea to keep an eye out for things which might
+potentially need to be fixed or updated as part of a future project. 
+* The comment for the same **should** be added as:
+   * For a future project titled `Payment Plan 2.0` the comment marker should be `#Payment_Plan_2.0: <some comment>`
+   * For a future project titled `Coach` the comment marker should be `#Coach: <some comment>`
+   
+* **Note:** There is no space between the pound sign and the first character.
+       
 #### Commented-out Code:
 * Try to refrain from including commented-out code in the codebase.
 
